@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: seagreen;
+    background-color: #4CB9E7;
+    
+}
+
+.ust{
+    position: fixed;
+    margin-top: 0;
+    margin-left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    z-index: 50;
+    justify-content: space-between;
+    margin-top: -1000px;
+}
+
+.logo{
+    text-decoration: none;
+    font-size: 40px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.menu a{
+    font-size: 32px;
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.menu a:hover{
+    color: #7BD3EA;
+}
+
+.wrapper{
+    width: 420px;
+    background-color: #3B3486;
+    color: white;
+    border-radius: 40px;
+    padding: 60px 20px;
+    background-image: url('images/tema11.jpg');
+}
+
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper .input-box {
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    position: relative;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: white;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+    color: white;
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size:20px;
+}
+
+.remember-forgot a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.register-link{
+    display: flex;
+    font-size: 14.5px;
+    margin: -15px 0 -15px;
+    position: absolute;
+}
+
+.register-link a {
+    justify-content: space-between;
+    text-decoration: none;
+    color: #ededed;
+    margin-left: 170px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.register-link a:hover{
+    color: aqua;
+}
+
+.btn{
+    margin-top: 30px;
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #ededed;
+}

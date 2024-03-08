@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('images/natural2.jpeg');
+    background-attachment: fixed;
+}
+
+.hos{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    font-weight: 300;
+    color: #000;
+}
+
+.hos-yazı{
+    max-width: 1300px;
+}
+
+.hos-yazı h1{
+    font-size: 56px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 140px;
+}
+
+.wrapper{
+    background-color: #ededed;
+    width: 1000px;
+    border-radius: 10px;
+}
+
+.wrapper img {
+    max-width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.wrapper p {
+    padding: 18px;;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+p {
+    font-size: 24px;
+    font-weight: 500;
+}
+
