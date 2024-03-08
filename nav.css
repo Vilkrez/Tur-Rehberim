@@ -1,0 +1,33 @@
+.logo{
+    text-decoration: none;
+    font-size: 40px;
+    color: #000000;
+    font-weight: 600;
+    padding: 10px !important;
+}
+
+.menu {
+    background-color: #1D2B53;    
+    position: fixed;
+    margin-top: 0;
+    margin-left: 0;
+    width: 100%;
+    display: flex;
+    z-index: 50;
+    justify-content: center;
+}
+
+.menu a{
+    font-size: 29px;
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 70px;
+    transition: .3s;
+    padding: 8px;
+    color: #ededed;
+}
+
+.menu a:hover{
+    color: #7BD3EA;
+}
