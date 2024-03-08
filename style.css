@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins' , sans-serif;
+    box-sizing: border-box;
+}
+
+.ust{
+    position: fixed;
+    margin-top: 0;
+    margin-left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    z-index: 50;
+    justify-content: space-between;
+}
+.logo{
+    text-decoration: none;
+    font-size: 30px;
+    color: #ededed;
+    font-weight: 600;
+}
+
+.menu a{
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.menu a:hover{
+    color: #7BD3EA;
+}
+  
+.hos{
+    min-height: 100vh;
+    background: url('images/tema1.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10%;
+    font-weight: 300;
+    color: #ededed;
+    text-align: center;
+}
+
+.hos-yazı{
+    display: flex;
+    max-width: 1300px;
+    margin: 200px auto 0 auto;
+    align-items: center;
+    flex-direction: column;
+    hyphens: auto;
+}
+
+.hos-yazı h1{
+    font-size: 56px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.hos-yazı p{
+    font-size:25px;
+    font-weight:400;
+}
+
+.populer{
+    max-height: 400px;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.populer h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.populer a{
+    float: left;
+    margin: 10px;  
+    text-decoration: none; 
+    display: inline;
+    color: #010101;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.isim{
+    margin-top: 850px;
+}
+
+.isim a{
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 190px;
+}
+
+figure {
+    display: flex;
+    flex-direction: 
+    column;border-radius: 10px;
+    overflow: hidden;
+}
+
+figcaption {
+    text-align: 
+    center;font-size: 30px;
+    background-color: aliceblue;
+    padding: 10px 0;
+}
